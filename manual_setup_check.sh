@@ -99,9 +99,9 @@ delimiter
 ## 9. Learn
 ## See Student Configuration section.
 
-## 10. Text Editor: VS Code or Atom
-print_table_results "Installed VSCode" "command -v code >/dev/null 2>&1 && code -v | grep -q '1.'"
-print_table_results "VSCode set as Learn Editor" "cat ~/.learn-config | grep ':editor:' | grep -q 'code'"
+## 10. Text Editor: Atom
+print_table_results "Installed Atom" "command -v atom >/dev/null 2>&1 && atom -v | grep -q '1.'"
+print_table_results "Atom set as Learn Editor" "cat ~/.learn-config | grep ':editor:' | grep -q 'atom'"
 delimiter
 
 ## 11. Gems (more)
